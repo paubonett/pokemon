@@ -1,0 +1,47 @@
+
+<div class="p-3 mb-2 bg-light text-dark" *ngIf="bandera==true">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+<div class="card" id="exampleModal"  style="width: 22rem;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" s>
+    <div class="card-dialog">
+      <div class="card-content">
+        
+        <div class="card-header">
+          <h3 id="exampleModalLabel">
+            DETALLES
+          </h3>
+          
+        </div >
+        <div class="card-body" >
+        
+          <br>
+            <div id="card1" class="" style="width: 18rem;" >
+              <h4 class="card-title" id="exampleModalLabel">
+                {{ pokemon.nombre}}
+              </h4>
+                <img src="{{pokemon.imagen}}" class="card-img-top" >
+                <div class="card-body">
+        
+                    
+                    <p >Biografia:  {{pokemon.bio}}</p>
+                    <p >Altura: {{pokemon.altura}}</p>
+                    <p >Peso: {{pokemon.peso}}</p>
+                    <p >Categoria: {{pokemon.categoria}}</p>
+                    <br>
+        </div>
+        
+        </div><br>
+        </div>
+        <div class="card-footer">
+          
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
